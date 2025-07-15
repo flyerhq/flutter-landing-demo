@@ -1666,7 +1666,7 @@ q=r.window.visualViewport
 if(q==null)q=r.window
 s.b=A.ds(q,"resize",A.bO(s.gaoe()))
 return s}},
-b0p(a){var s,r,q,p="0",o="none"
+b0p(a){var s,r,q,p="0",o="auto"
 if(a!=null){A.be5(a)
 s=A.aJ("custom-element")
 s.toString
@@ -40420,7 +40420,7 @@ p.c.ok.x.push(new A.azI(p))
 p.YY()
 if(p.y==null){s=p.a
 s===$&&A.b()
-A.aa(s.style,"touch-action","none")
+A.aa(s.style,"touch-action","auto")
 r=new A.azJ(p)
 p.w=r
 q=$.cw;(q==null?$.cw=A.fi():q).w.push(r)
@@ -42812,7 +42812,7 @@ A.aa(a.style,"height","100%")
 A.aa(a.style,"display","block")
 A.aa(a.style,"overflow","hidden")
 A.aa(a.style,"position","relative")
-A.aa(a.style,"touch-action","none")
+A.aa(a.style,"touch-action","auto")
 this.a.appendChild(a)
 $.aUN()
 this.b!==$&&A.b4()
